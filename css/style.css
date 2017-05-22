@@ -1,3 +1,8 @@
+body {
+    height:100%;
+    background: linear-gradient(0deg, #5B9EAf,#2EA294 80%) no-repeat
+}
+
 .container {
   width: 100% !important;
   padding: 0px !important;
@@ -5,14 +10,14 @@
 }
 
 #footer {
-    background-color: #2C3E50;
-    color: white;
+    /*background-color: #2C3E50;*/
+    color: #FFF;
     padding: 2% 0% 2% 0% !important;
     width: 100%;
 }
 
 #footer a {
-    color: #18BC9C;
+    color: #FFCFC4;
 }
 
 .myheart {
@@ -30,6 +35,6 @@
   width: 50% !important;
   padding: 20px !important;
   margin: 20px !important;
-  background-color: yellow;
+  background-color: #FFFFFF;
   text-align: center;
 }
