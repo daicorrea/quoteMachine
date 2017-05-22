@@ -54,5 +54,5 @@ body {
 }
 
 .btn-link {
-    color: #DA0000;
+    color: #DA0000 !important;
 }
