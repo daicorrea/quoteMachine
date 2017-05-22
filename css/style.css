@@ -2,7 +2,6 @@
   width: 100% !important;
   padding: 0px !important;
   margin: 0px !important;
-  
 }
 
 #footer {
@@ -18,4 +17,19 @@
 
 .myheart {
     color: #DE0404;
+}
+
+.quote-container {
+  padding: 20px !important;
+  margin: 20px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box {
+  width: 50% !important;
+  padding: 20px !important;
+  margin: 20px !important;
+  background-color: yellow;
+  text-align: center;
 }
