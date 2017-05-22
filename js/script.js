@@ -5,6 +5,15 @@ $("document").ready(function() {
     $.ajaxSetup( { cache:false} );
     $.getJSON( corsServer + apiUrl, jsonAPIFormat, 'jsonp' );
   });
+
+  $('.tweet').on('click', function() {
+    var quote = $('#quote-text').text();
+    var author = $('#quote-author').text();
+    var tweetLink = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote + author);
+    console.log(tweetLink);
+    $('.twitter').attr('href',tweetLink).click();
+  });
+
 });
 
 function jsonAPIFormat(json) {
