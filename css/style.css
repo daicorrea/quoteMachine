@@ -1,6 +1,6 @@
 body {
     height:100%;
-    background: linear-gradient(0deg, #5B9EAf,#2EA294 80%) no-repeat
+    /*background: linear-gradient(0deg, #5B9EAf,#2EA294 80%) no-repeat*/
 }
 
 .container {
@@ -10,18 +10,17 @@ body {
 }
 
 #footer {
-    /*background-color: #2C3E50;*/
-    color: #FFF;
+    color: #272727;
     padding: 2% 0% 2% 0% !important;
     width: 100%;
 }
 
 #footer a {
-    color: #FFCFC4;
+    color: #DA0000;
 }
 
 .myheart {
-    color: #DE0404;
+    color: #DA0000;
 }
 
 .quote-container {
@@ -50,6 +49,10 @@ body {
 }
 
 .mytitle {
-    color: #FFF;
+    color: #272727;
     font-family: 'Meddon', cursive;
+}
+
+.btn-link {
+    color: #DA0000;
 }
